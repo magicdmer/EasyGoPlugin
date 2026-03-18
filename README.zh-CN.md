@@ -1,4 +1,4 @@
-# EasyGo 快捷启动
+# EasyGo 插件仓库
 
 [![Join the chat at https://gitter.im/magicdmer/EasyGo](https://badges.gitter.im/magicdmer/EasyGo.svg)](https://gitter.im/magicdmer/EasyGo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Watch video at https://www.bilibili.com/video/BV16P4y1Z7jQ/?](https://img.shields.io/badge/watch-on%20bilibili-brightgreen)](https://www.bilibili.com/video/BV16P4y1Z7jQ/?)
@@ -28,12 +28,15 @@ Wox官网：http://www.wox.one/
 3. 插件支持 **回车模式** 和 **实时模式** ，默认是 **实时模式** 。实时模式就是和wox一样，实时的查询输入的关键字，回车模式则是需要按回车后进行查询操作。对于一些网络插件，采用实时模式，很容易出现访问频率过于频繁的问题，比如之前用到的wox的有道词典插件，所以就加了回车模式
 4. 插件支持文件类型操作结构，根据用户拖入的文件类型来调用注册了此文件类型的插件，并显示操作列表
 5. 安装python插件的时候，可以自行根据插件里面的配置文件来自动安装相关依赖库
+6. 支持 `ctrl+y` 分离窗口，执行多个操作
+7. 支持自定义 `插件源仓库`，可以使用自己搭建的插件仓库
+8. 支持音乐播放接口
 
 
 
 ## 工程结构
 
-**depends**:  EasyGo一些插件以来的第三方软件，比如解码器啥的，支持音乐播放
+**depends**:  EasyGo一些插件依赖的第三方软件，比如解码器啥的，支持音乐播放
 
 **plugin**:  插件目录，格式为 `.plugin`  ，其实就是 zip 格式改了后缀，具体可以看压缩包自带的文档
 
