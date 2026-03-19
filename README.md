@@ -1,25 +1,27 @@
-[点我阅读中文介绍](README.zh-CN.md)
+# EasyGo 插件仓库
 
-# EasyGo Plugin Repo
+## 工程结构
 
-[![Join the chat at https://gitter.im/magicdmer/EasyGo](https://badges.gitter.im/magicdmer/EasyGo.svg)](https://gitter.im/magicdmer/EasyGo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+**depends**:  EasyGo一些插件依赖的第三方软件，比如解码器啥的，支持音乐播放
 
-## Introduction
-EasyGo is a quick launcher tool , support c++, python and e language plugin and so on, it borns of wox launcher:
-![0f4ccd48ff9f30cb78cf52955454c57c_503ae0a70888d398](https://user-images.githubusercontent.com/5556368/183931138-45027153-f389-4069-9ec0-e997925c5a18.gif)
+**plugin**:  插件目录，格式为 `.plugin`  ，其实就是 zip 格式改了后缀，具体可以看压缩包自带的文档
 
-
-
-
-## Structure
-
-**depends**:  some addition dependences
-
-**plugin**: EasyGo's plugins, the plugin format `.plugin` is `zip`
-
-**plugin-sources**:  c++ or e language codes, the python plugin code can find in the plugin folder
+**plugin-sources**:  这个里面是插件源码，主要是c++和易语言的，因为python本身就是源码，可以解压看
 
 
 
-## Notice
-You can fork your own EasyGo Plugin repo for yourself, and set it in EasyGo's setting
+## 注意事项
+你可以fork或者参考该工程结构，弄一个自己的插件仓库，供自己使用
+
+
+
+## 帮助文档
+1. 可以直接查看 github 上的 wiki 分类
+2. 查看压缩包类的 mht 文档
+
+
+
+## 交流
+1. QQ群: 707119847
+2. 小众软件论坛
+3. Discussions
