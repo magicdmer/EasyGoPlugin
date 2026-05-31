@@ -46,6 +46,7 @@
             "name": "数字转中文",
             "type": "python",
             "version": "1.0.0", 
+            "linux_support": true,
             "timestamp": 1664207355
         },
         {
@@ -141,6 +142,7 @@
             "name": "PythonCalculator",
             "type": "python",
             "version": "1.1.1", 
+            "linux_support": true,
             "timestamp": 1566037800
         },
         {
@@ -186,6 +188,7 @@
             "name": "时间戳",
             "type": "python",
             "version": "1.1.1", 
+            "linux_support": true,
             "update": "添加指定时间转时间戳的功能，默认回车模式",
             "timestamp": 1661953723
         },
@@ -196,6 +199,7 @@
             "name": "磁力搜索",
             "type": "python",
             "version": "1.3.7", 
+            "linux_support": true,
             "timestamp": 1761317047
         },
         {
@@ -217,5 +221,5 @@
             "timestamp": 1661266860
         }
     ],
-    "version": "1.9.8.4"
+    "version": "2.0.0.0"
 }
