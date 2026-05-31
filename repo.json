@@ -1,5 +1,5 @@
 {
-    "count": 23,
+    "count": 24,
     "plugins": [
         {
             "author": "magicdmer",
@@ -219,6 +219,16 @@
             "type": "python",
             "version": "1.0.0", 
             "timestamp": 1661266860
+        }, 
+        {
+            "author": "zsxeee",
+            "description": "生成Guid",
+            "id": "98451A7B5C764F6A9A3814EF7E4AFEEC",
+            "name": "生成Guid",
+            "type": "python",
+            "version": "1.0.0",
+            "linux_support": true, 
+            "timestamp": 1780236415
         }
     ],
     "version": "2.0.0.0"
